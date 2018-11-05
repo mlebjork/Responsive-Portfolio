@@ -140,7 +140,7 @@ h3, h2 {
 .work {
   position: relative;
   float: left;
-  width: 274px;
+  width: calc(50% - 20px);
   margin: 20px 0 25px;
   overflow: auto;
 }
@@ -218,6 +218,7 @@ input[type=submit] {
 }
 @media screen and (max-width: 980px) {
   .main-section {width: 100%;}
+
 }
 
 @media (max-width: 768px) {
@@ -241,5 +242,8 @@ input[type=submit] {
   nav{
     float: none;
     text-align: center;
+  }
+  .work{ 
+    width: 100%;
   }
  }
