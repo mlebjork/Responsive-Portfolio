@@ -252,4 +252,12 @@ input[type=submit] {
   #masthead {
     position: static;
  }
+ 
+}
+.work h3 {
+  margin-bottom: 8px;
+}
+.work img {
+  height: 170px;
+  object-fit: cover;
 }
