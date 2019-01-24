@@ -261,3 +261,10 @@ input[type=submit] {
   height: 170px;
   object-fit: cover;
 }
+.footerLinks {
+  height: 40px;
+}
+#footerLinkContainer {
+  float: right;
+  margin-top: -20px;
+}
